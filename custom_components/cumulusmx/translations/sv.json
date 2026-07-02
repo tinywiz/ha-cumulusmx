@@ -133,7 +133,7 @@
         "name": "Temperatur"
       },
       "build": {
-        "name": "Byggversion"
+        "name": "Bygg"
       },
       "multicast_bad_cnt": {
         "name": "Felaktiga paket"
