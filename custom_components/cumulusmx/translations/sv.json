@@ -1,0 +1,230 @@
+```json id="ha-style"
+{
+  "title": "CumulusMX",
+  "config": {
+    "step": {
+      "user": {
+        "title": "CumulusMX",
+        "data": {
+          "host": "Värdnamn",
+          "port": "Port"
+        },
+        "data_description": {
+          "host": "Värdnamn eller IP-adress för CumulusMX-servern.",
+          "port": "Porten som används av CumulusMX API."
+        }
+      },
+      "reconfigure": {
+        "title": "Konfigurera om CumulusMX",
+        "data": {
+          "host": "Värdnamn",
+          "port": "Port"
+        },
+        "data_description": {
+          "host": "Värdnamn eller IP-adress för CumulusMX-servern.",
+          "port": "Porten som används av CumulusMX API."
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Kunde inte ansluta till CumulusMX. Kontrollera värdnamn och port."
+    },
+    "abort": {
+      "already_configured": "Den här CumulusMX-instansen är redan konfigurerad.",
+      "reconfigure_successful": "CumulusMX har konfigurerats om."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Alternativ för CumulusMX",
+        "data": {
+          "webtags": "Webbtaggar"
+        },
+        "data_description": {
+          "webtags": "Välj vilka CumulusMX-webbtaggar som sensorer ska skapas för."
+        }
+      }
+    }
+  },
+  "device": {
+    "hub": {
+      "name": "CumulusMX-hubb"
+    },
+    "weather_station": {
+      "name": "{station_type}"
+    },
+    "system": {
+      "name": "Systeminformation"
+    },
+    "airlink": {
+      "name": "Davis AirLink"
+    }
+  },
+  "entity": {
+    "sensor": {
+      "air_link_pm1_out": {
+        "name": "PM 1,0"
+      },
+      "air_link_pm2p5_out": {
+        "name": "PM 2,5"
+      },
+      "air_link_pm2p5_1hr_out": {
+        "name": "PM 2,5 (1 h)"
+      },
+      "air_link_pm2p5_3hr_out": {
+        "name": "PM 2,5 (3 h)"
+      },
+      "air_link_pm2p5_24hr_out": {
+        "name": "PM 2,5 (24 h)"
+      },
+      "air_link_pm2p5_nowcast_out": {
+        "name": "PM 2,5 prognos"
+      },
+      "air_link_pm10_out": {
+        "name": "PM 10"
+      },
+      "air_link_pm10_1hr_out": {
+        "name": "PM 10 (1 h)"
+      },
+      "air_link_pm10_3hr_out": {
+        "name": "PM 10 (3 h)"
+      },
+      "air_link_pm10_24hr_out": {
+        "name": "PM 10 (24 h)"
+      },
+      "air_link_pm10_nowcast_out": {
+        "name": "PM 10 prognos"
+      },
+      "air_link_aqi_pm2p5_out": {
+        "name": "Luftkvalitetsindex PM 2,5"
+      },
+      "air_link_aqi_pm2p5_1hr_out": {
+        "name": "Luftkvalitetsindex PM 2,5 (1 h)"
+      },
+      "air_link_aqi_pm2p5_3hr_out": {
+        "name": "Luftkvalitetsindex PM 2,5 (3 h)"
+      },
+      "air_link_aqi_pm2p5_24hr_out": {
+        "name": "Luftkvalitetsindex PM 2,5 (24 h)"
+      },
+      "air_link_aqi_pm2p5_nowcast_out": {
+        "name": "Luftkvalitetsindex PM 2,5 prognos"
+      },
+      "air_link_aqi_pm10_out": {
+        "name": "Luftkvalitetsindex PM 10"
+      },
+      "air_link_aqi_pm10_1hr_out": {
+        "name": "Luftkvalitetsindex PM 10 (1 h)"
+      },
+      "air_link_aqi_pm10_3hr_out": {
+        "name": "Luftkvalitetsindex PM 10 (3 h)"
+      },
+      "air_link_aqi_pm10_24hr_out": {
+        "name": "Luftkvalitetsindex PM 10 (24 h)"
+      },
+      "air_link_aqi_pm10_nowcast_out": {
+        "name": "Luftkvalitetsindex PM 10 prognos"
+      },
+      "air_link_hum_out": {
+        "name": "Luftfuktighet"
+      },
+      "air_link_temp_out": {
+        "name": "Temperatur"
+      },
+      "build": {
+        "name": "Byggversion"
+      },
+      "multicast_bad_cnt": {
+        "name": "Felaktiga paket"
+      },
+      "multicast_good_cnt": {
+        "name": "Mottagna paket"
+      },
+      "multicast_good_pct": {
+        "name": "Andel mottagna paket"
+      },
+      "program_up_time": {
+        "name": "Upptid"
+      },
+      "system_up_time": {
+        "name": "Systemets upptid"
+      },
+      "timehhmmss": {
+        "name": "Tid"
+      },
+      "txbattery_channel_1": {
+        "name": "Batteri ISS 1"
+      },
+      "txbattery_channel_2": {
+        "name": "Batteri ISS 2"
+      },
+      "version": {
+        "name": "Version"
+      },
+      "avgbearing": {
+        "name": "Genomsnittlig vindriktning"
+      },
+      "bearing": {
+        "name": "Vindriktning"
+      },
+      "dew": {
+        "name": "Daggpunkt"
+      },
+      "heatindex": {
+        "name": "Värmeindex"
+      },
+      "hum": {
+        "name": "Luftfuktighet"
+      },
+      "last_rain_tip_iso": {
+        "name": "Senaste regnmätning"
+      },
+      "temp": {
+        "name": "Temperatur"
+      },
+      "press": {
+        "name": "Lufttryck"
+      },
+      "rfall": {
+        "name": "Nederbörd"
+      },
+      "rrate": {
+        "name": "Nederbördsintensitet"
+      },
+      "wgust": {
+        "name": "Vindby"
+      },
+      "wlatest": {
+        "name": "Senaste vindhastighet"
+      },
+      "wspeed": {
+        "name": "Vindhastighet"
+      },
+      "wdir": {
+        "name": "Genomsnittlig vindriktning"
+      },
+      "currentwdir": {
+        "name": "Aktuell vindriktning"
+      },
+      "intemp": {
+        "name": "Inomhustemperatur"
+      },
+      "inhum": {
+        "name": "Inomhusluftfuktighet"
+      },
+      "solar_rad": {
+        "name": "Solinstrålning"
+      },
+      "uv": {
+        "name": "UV-index"
+      }
+    },
+    "update": {
+      "hub_update": {
+        "name": "Uppdatera"
+      }
+    }
+  }
+}
+```
