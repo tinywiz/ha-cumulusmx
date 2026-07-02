@@ -153,10 +153,10 @@
       "timehhmmss": {
         "name": "Tid"
       },
-      "txbattery_channel_1": {
+      "txbattery channel=1": {
         "name": "Batteri ISS 1"
       },
-      "txbattery_channel_2": {
+      "txbattery channel=2": {
         "name": "Batteri ISS 2"
       },
       "version": {
