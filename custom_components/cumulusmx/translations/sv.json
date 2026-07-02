@@ -1,4 +1,3 @@
-```json id="ha-style"
 {
   "title": "CumulusMX",
   "config": {
@@ -153,10 +152,10 @@
       "timehhmmss": {
         "name": "Tid"
       },
-      "txbattery channel=1": {
+      "txbattery_channel_1": {
         "name": "Batteri ISS 1"
       },
-      "txbattery channel=2": {
+      "txbattery_channel_2": {
         "name": "Batteri ISS 2"
       },
       "version": {
@@ -202,10 +201,46 @@
         "name": "Vindhastighet"
       },
       "wdir": {
-        "name": "Genomsnittlig vindriktning"
+        "name": "Genomsnittlig vindriktning",
+        "state": {
+          "n": "N",
+          "nne": "NNO",
+          "ne": "NO",
+          "ene": "ONO",
+          "e": "O",
+          "ese": "OSO",
+          "se": "SO",
+          "sse": "SSO",
+          "s": "S",
+          "ssw": "SSV",
+          "sw": "SV",
+          "wsw": "VSV",
+          "w": "V",
+          "wnw": "VNV",
+          "nw": "NV",
+          "nnw": "NNV"
+        }
       },
       "currentwdir": {
-        "name": "Aktuell vindriktning"
+        "name": "Aktuell vindriktning",
+        "state": {
+          "n": "N",
+          "nne": "NNO",
+          "ne": "NO",
+          "ene": "ONO",
+          "e": "O",
+          "ese": "OSO",
+          "se": "SO",
+          "sse": "SSO",
+          "s": "S",
+          "ssw": "SSV",
+          "sw": "SV",
+          "wsw": "VSV",
+          "w": "V",
+          "wnw": "VNV",
+          "nw": "NV",
+          "nnw": "NNV"
+        }
       },
       "intemp": {
         "name": "Inomhustemperatur"
@@ -227,4 +262,3 @@
     }
   }
 }
-```
